@@ -7,6 +7,9 @@ RUN apk add --no-cache git && pip install cookiecutter
 # Sets up locales to avoid decode issue in python
 ENV LANG C.UTF-8
 
+ADD guideline-maker
+RUN chmod +x guideline-maker
+
 WORKDIR /code/
 VOLUME /code/
 
