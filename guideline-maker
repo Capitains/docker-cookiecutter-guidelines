@@ -1,2 +1,2 @@
-#!/bin/sh
+#!/bin/bash
 cookiecutter https://github.com/Capitains/cookiecutter-guidelines
